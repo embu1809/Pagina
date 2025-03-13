@@ -1,15 +1,84 @@
 <!DOCTYPE html>
-
 <html>
     <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8"/>
-       
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ali Maki - Inicio</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            header {
+                background-color: #1e90ff;
+                color: white;
+                padding: 15px 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin: 0 10px;
+            }
+            .hero {
+                background-image: url('imagen-de-producto.jpg');
+                background-size: cover;
+                background-position: center;
+                height: 300px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            }
+            .hero h1 {
+                font-size: 3rem;
+            }
+            .description, .links {
+                text-align: center;
+                margin: 20px;
+            }
+            footer {
+                background-color: #1e90ff;
+                color: white;
+                text-align: center;
+                padding: 10px 0;
+            }
+        </style>
     </head>
-    
     <body>
-        <h1>houlaaaa</h1>
-        <h2>porfavorsirveee</h2>
+        <header>
+            <h1>Ali Maki</h1>
+            <nav>
+                <a href="#productos">Productos</a>
+                <a href="#nosotros">Acerca de Nosotros</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </header>
+
+        <div class="hero">
+            <h1>Bienvenidos a Ali Maki</h1>
+        </div>
+
+        <section class="description">
+            <h2>Sobre nosotros</h2>
+            <p>En Ali Maki ofrecemos productos de alta calidad diseñados para ti. ¡Explora nuestra tienda y encuentra lo que necesitas!</p>
+        </section>
+
+        <section class="links">
+            <h2>Explora nuestras secciones</h2>
+            <p>
+                <a href="#productos">Ver productos</a> | 
+                <a href="#nosotros">Conócenos</a> | 
+                <a href="#contacto">Contáctanos</a>
+            </p>
+        </section>
+
+        <footer>
+            <p>© 2025 Ali Maki. Todos los derechos reservados.</p>
+        </footer>
     </body>
-    
 </html>
